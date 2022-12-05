@@ -232,6 +232,14 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 320px) {
+
+			.container{
+				width: 50%;
+			}
+			
+		}
+
 /* Row */
 
 	.row {
@@ -1454,7 +1462,7 @@ input, select, textarea {
 						}
 
 		}
-
+		
 /* Section/Article */
 
 	section, article {
@@ -2696,6 +2704,25 @@ input, select, textarea {
   
 
 		.logofooter{
-			text-align: center;
+			text-align:center;
 			
 		}
+
+		#parceiros{
+			text-align: center;
+		}
+            
+		.veliath{
+			color: black ;
+		}
+
+		.rnf {
+			background-color: #f5edeb;
+			box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 5%);
+		}
+
+		#lgft{
+			text-align: center;
+		}
+
+	
