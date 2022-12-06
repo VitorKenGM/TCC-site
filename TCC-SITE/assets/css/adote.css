@@ -2724,3 +2724,17 @@ text-align: center;
 	.contatop{
 		text-align: center;
 	}
+
+.cmfn{
+	background-color: #fff;
+	background-image: url(/images/adtc.png);
+	background-repeat: no-repeat;
+}
+
+.imgsome{
+	display: none;
+}	
+
+.descetx{
+  padding-bottom:35px ;
+}

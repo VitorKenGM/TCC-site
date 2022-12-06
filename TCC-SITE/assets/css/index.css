@@ -1918,8 +1918,12 @@ input, select, textarea {
 
 /* Wrappers */
 
+.esg{
+	display: block;
+}
+
 	#header-wrapper {
-	background-color: #f5edeb";
+	background-color: #f5edeb;
 	}
 
 	#features-wrapper {

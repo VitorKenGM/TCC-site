@@ -1671,7 +1671,7 @@ text-align: center;
 
 		position: relative;
 		display: inline-block;
-		background: #0090c5;
+		background: #dd3147;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1698,7 +1698,7 @@ text-align: center;
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #10a0d5;
+			background: #dd3147;
 		}
 
 		input[type="button"]:active,
@@ -1706,7 +1706,7 @@ text-align: center;
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #20b0e5;
+			background: #dd3147;
 		}
 
 		input[type="button"].alt,
