@@ -253,7 +253,7 @@ text-align: center;
 			#adote{
 				z-index: 1;
 		opacity: 1;
-		background-image: url('images/adotepf.png');
+		background-image: url('/images/adotepf.png');
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;
@@ -284,7 +284,7 @@ text-align: center;
 			#adote{
 				z-index: 1;
 		opacity: 1;
-		background-image: url('images/adotepf.png');
+		background-image: url('/images/adotepf.png');
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;
@@ -316,7 +316,7 @@ text-align: center;
 			#adote{
 				z-index: 1;
 				opacity: 1;
-		background-image: url('images/adotepf.png');
+		background-image: url('/images/adotepf.png');
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;
