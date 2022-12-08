@@ -228,11 +228,67 @@ text-align: center;
 			}
 
 		}
+		
+		@media screen and (max-width: 1199px) {
+
+			.container {
+				width:90% ;
+			}
+
+			#some{
+				display: none;
+			}
+	
+			.textos{
+				text-align: center;
+				width: 100%;
+				color: black;
+				opacity: 1;
+			}
+	
+			.saidai{
+			display: none;
+			}
+	
+			#adote{
+				z-index: 1;
+		opacity: 1;
+		background-image: url('/images/adotepf.png');
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		background-size: cover;
+		color: black;
+			}
+		}
 
 		@media screen and (max-width: 980px) {
 
 			.container {
 				width: 90%;
+			}
+			#some{
+				display: none;
+			}
+	
+			.textos{
+				text-align: center;
+				width: 100%;
+				color: black;
+				opacity: 1;
+			}
+	
+			.saidai{
+			display: none;
+			}
+	
+			#adote{
+				z-index: 1;
+		opacity: 1;
+		background-image: url('/images/adotepf.png');
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		background-size: cover;
+		color: black;
 			}
 
 		}
@@ -242,6 +298,31 @@ text-align: center;
 			.container {
 				width: 100%;
 			}
+			#some{
+				display: none;
+			}
+	
+			.textos{
+				text-align: center;
+				width: 100%;
+				color: black;
+				opacity: 1;
+			}
+	
+			.saidai{
+			display: none;
+			}
+	
+			#adote{
+				z-index: 1;
+				opacity: 1;
+		background-image: url('/images/adotepf.png');
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		background-size: cover;
+		color: black;
+			}
+			
 
 		}
 
