@@ -120,6 +120,16 @@ input, select, textarea {
 
 /* Textos */
 
+
+
+h4{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
 h2{
     text-align: center;
 }
@@ -128,9 +138,6 @@ h2{
 text-align: center;
 }
 
-h4{
-text-align: center;
-}
 
 
 	a {
@@ -228,6 +235,37 @@ text-align: center;
 			}
 
 		}
+		@media screen and (max-width: 1199px) {
+
+			.container {
+				width:90% ;
+			}
+
+			#some{
+				display: none;
+			}
+	
+			.textos{
+				text-align: center;
+				width: 100%;
+				color: black;
+				opacity: 1;
+			}
+	
+			.saidai{
+			display: none;
+			}
+	
+			#apadrinho{
+				z-index: 1;
+		opacity: 1;
+		background-image: url('/images/padrinheresponsivo.png');
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		background-size: cover;
+		color: black;
+			}
+		}
 
 		@media screen and (max-width: 980px) {
 
@@ -235,40 +273,37 @@ text-align: center;
 				width: 90%;
 			}
 
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.container {
-				width: 100%;
+			#some{
+				display: none;
 			}
-           
-        #some{
+	
+			.textos{
+				text-align: center;
+				width: 100%;
+				color: black;
+			}
+	
+			.saidai{
 			display: none;
-		}
+			}
+	
+			#apadrinho{
+				z-index: 1;
+		background-image: url("/images/padrinheresponsivo.png");
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		background-size: cover;
+		color: black;
+			}
 
-		.textos{
-			text-align: center;
-			width: 100%;
-			color: black;
-			opacity: 1;
-		}
+			#colunas{
+				padding-right: 5px;
+				padding-left: 5px;
+				overflow-wrap:break-word;
+			   }
 
-		.saidai{
-		display: none;
 		}
-
-		#apadrinho{
-			z-index: 1;
-    opacity: 0.6;
-    background-image: url('/images/parapadrinho.png');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-	color: black;
-		}
-
-	}
+	
 /* Row */
 
 	.row {
@@ -2614,7 +2649,7 @@ text-align: center;
 				}
 
 					.box.feature .inner {
-						padding: 30px 15px 30px 15px;
+						padding: 30px 10px 30px 10px;
 					}
 
 					.box.feature p {
@@ -2737,12 +2772,6 @@ text-align: center;
 	#header{
 		position: relative;
 	}
-
-	#funciona{
-		background-color: #fff;
-		box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
-	}
-
 	.cmfu{
 		width: 100%
 	}

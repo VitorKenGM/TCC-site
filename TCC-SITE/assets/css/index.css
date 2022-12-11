@@ -230,6 +230,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#colunas{
+				overflow-wrap:break-word;
+			   }
 		}
 
 		@media screen and (max-width: 320px) {
@@ -973,7 +976,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 991px) {
 
 			.row {
 				display: flex;
@@ -1462,6 +1465,8 @@ input, select, textarea {
 						}
 
 		}
+
+
 		
 /* Section/Article */
 
@@ -2591,7 +2596,7 @@ input, select, textarea {
 				}
 
 					.box.feature .inner {
-						padding: 30px 15px 30px 15px;
+						padding: 30px 30px 30px 15px;
 					}
 
 					.box.feature p {
@@ -2729,6 +2734,34 @@ input, select, textarea {
 			text-align: center;
 		}
 
-	@media screen {
-		
+.container1{
+	padding: 0.15%;
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 1%;
+}
+.container1 img{
+	padding: 0.5%;
+	
+}
+
+@media screen and (max-width:991px ) {
+	.container1{
+		grid-template-columns: auto;
+		gap: 2%;
 	}
+}
+
+@media screen and (max-width:767px ) {
+	.container1{
+		grid-template-columns: auto;
+		gap: 10%;
+	}
+}
+
+@media screen and (max-width:551px ) {
+	#sidebar{
+		display: none;
+	}
+	
+}

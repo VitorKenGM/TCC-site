@@ -221,7 +221,7 @@ input, select, textarea {
 			.container {
 				width: 90%;
 			}
-
+			
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2224,7 +2224,7 @@ input, select, textarea {
 			input[type="reset"],
 			button,
 			.button {
-				width: 100%;
+				width: 40%;
 				text-align: center;
 				font-size: 1.35em;
 				padding: 0.85em 0 !important;
@@ -2543,7 +2543,7 @@ input, select, textarea {
 			input[type="reset"],
 			button,
 			.button {
-				width: 100%;
+				width: 40%;
 				text-align: center;
 				font-size: 1.25em !important;
 				padding: 0.65em 0 !important;
@@ -2782,4 +2782,136 @@ margin-right: 70%;
 
 .logofooter{
 	text-align: center;
+}
+
+@media screen and (max-width:1250px){
+	#tele{
+		margin-right: 50%;
+	}
+	
+	#email{
+		margin-right: 50%;
+	}
+	
+	#cidade{
+	margin-right: 60%;
+	}
+	  
+	#sbnn{
+		margin-right: 50%;
+	}
+	
+	#nome{
+		margin-right: 50%;
+	}
+}
+
+@media screen and (max-width:1080px){
+	#tele{
+		margin-right: 40%;
+	}
+	
+	#email{
+		margin-right: 40%;
+	}
+	
+	#cidade{
+	margin-right: 50%;
+	}
+	  
+	#sbnn{
+		margin-right: 40%;
+	}
+	
+	#nome{
+		margin-right: 40%;
+	}
+}
+
+@media screen and (max-width:980px){
+	#tele{
+		margin-right: 30%;
+	}
+	
+	#email{
+		margin-right: 30%;
+	}
+	
+	#cidade{
+	margin-right: 40%;
+	}
+	  
+	#sbnn{
+		margin-right: 30%;
+	}
+	
+	#nome{
+		margin-right: 30%;
+	}
+}
+
+@media screen and (max-width:736px){
+	#tele{
+		margin-right: 20%;
+	}
+	
+	#email{
+		margin-right: 20%;
+	}
+	
+	#cidade{
+	margin-right: 30%;
+	}
+	  
+	#sbnn{
+		margin-right: 20%;
+	}
+	
+	#nome{
+		margin-right: 20%;
+	}
+}
+
+@media screen and (max-width:500px){
+	#tele{
+		margin-right: 10%;
+	}
+	
+	#email{
+		margin-right: 10%;
+	}
+	
+	#cidade{
+	margin-right: 20%;
+	}
+	  
+	#sbnn{
+		margin-right: 10%;
+	}
+	
+	#nome{
+		margin-right: 10%;
+	}
+}
+
+@media screen and (max-width:300px){
+	#tele{
+		margin-right: 5%;
+	}
+	
+	#email{
+		margin-right: 5%;
+	}
+	
+	#cidade{
+	margin-right: 10%;
+	}
+	  
+	#sbnn{
+		margin-right: 5%;
+	}
+	
+	#nome{
+		margin-right: 5%;
+	}
 }

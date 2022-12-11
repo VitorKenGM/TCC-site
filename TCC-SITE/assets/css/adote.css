@@ -128,11 +128,25 @@ h2{
 text-align: center;
 }
 
-h4{
+h2 h3 h4 h5 h6{
 text-align: center;
 }
 
+h4{
+	text-align: center;
+}
 
+h3{
+	text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.p{
+text-align: center;
+}
 	a {
 		color: #0090c5;
 		text-decoration: underline;
@@ -253,12 +267,16 @@ text-align: center;
 			#adote{
 				z-index: 1;
 		opacity: 1;
-		background-image: url('/images/adotepf.png');
+		background-image: url('/images/adotereponsivo.png');
 		background-repeat: no-repeat;
-		background-position: 50% 0;
+		background-position: 100% ;
 		background-size: cover;
 		color: black;
 			}
+
+			#main-wrapper{
+				overflow-wrap: normal;
+			  }
 		}
 
 		@media screen and (max-width: 980px) {
@@ -284,13 +302,20 @@ text-align: center;
 			#adote{
 				z-index: 1;
 		opacity: 1;
-		background-image: url('/images/adotepf.png');
+		background-image: url('/images/adotereponsivo.png');
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;
 		color: black;
 			}
-
+			#main-wrapper{
+				overflow-wrap: normal;
+			  }
+			  #colunas {
+				padding-right: 5px;
+				padding-left: 5px;
+				overflow-wrap: break-word;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -316,13 +341,18 @@ text-align: center;
 			#adote{
 				z-index: 1;
 				opacity: 1;
-		background-image: url('/images/adotepf.png');
+		background-image: url('/images/adotereponsivo.png');
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;
 		color: black;
 			}
 			
+       #colunas{
+		padding-right: 5px;
+		padding-left: 5px;
+		overflow-wrap:break-word;
+	   }
 
 		}
 
@@ -2671,7 +2701,7 @@ text-align: center;
 				}
 
 					.box.feature .inner {
-						padding: 30px 15px 30px 15px;
+						padding: 30px 10px 30px 10px
 					}
 
 					.box.feature p {
