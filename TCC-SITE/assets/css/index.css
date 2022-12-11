@@ -2588,6 +2588,7 @@ input, select, textarea {
 			.box {
 				padding: 15px 15px 15px 15px;
 				margin: 0;
+				
 			}
 
 				.box.feature {
@@ -2745,17 +2746,119 @@ input, select, textarea {
 	
 }
 
+@media screen and (max-width:1199px ){
+	.ajusteE{
+		padding-bottom: 10%;
+	}
+	.ajusteM{
+		padding-bottom: 1%;
+	}
+	.ajusteD{
+		padding-bottom: 18%;
+	}
+}
+
 @media screen and (max-width:991px ) {
 	.container1{
 		grid-template-columns: auto;
 		gap: 2%;
 	}
+	.ajusteE{
+		padding-bottom: 12%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 11%;
+	}
+	
 }
 
 @media screen and (max-width:767px ) {
 	.container1{
 		grid-template-columns: auto;
 		gap: 10%;
+	}
+	.ajusteE{
+		padding-bottom: 0%;
+	}
+	.ajusteM{
+		padding-bottom: 16%;
+	}
+	.ajusteD{
+		padding-bottom: 32.5%;
+	}
+}
+@media screen and (max-width:736px ){
+	.ajusteE{
+		padding-bottom: 0%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 17%;
+	}
+}
+
+@media screen and (max-width:569px ){
+	.ajusteE{
+		padding-bottom: 0%;
+	}
+	.ajusteM{
+		padding-bottom: 15.5%;
+	}
+	.ajusteD{
+		padding-bottom: 32%;
+	}
+}
+
+@media screen and (max-width:560px ){
+	.ajusteE{
+		padding-bottom: 0%;
+	}
+	.ajusteM{
+		padding-bottom: 16%;
+	}
+	.ajusteD{
+		padding-bottom: 16%;
+	}
+}
+
+@media screen and (max-width:554px ){
+	.ajusteE{
+		padding-bottom: 16.5%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 32.5%;
+	}
+}
+
+@media screen and (max-width:542px ){
+	.ajusteE{
+		padding-bottom: 18%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 51%;
+	}
+}
+
+@media screen and (max-width:533px ){
+	.ajusteE{
+		padding-bottom: 17%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 35%;
 	}
 }
 
@@ -2764,4 +2867,64 @@ input, select, textarea {
 		display: none;
 	}
 	
+}
+
+@media screen and (max-width:518px ){
+	.ajusteE{
+		padding-bottom: 38%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 38%;
+	}
+}
+
+@media screen and (max-width:515px ){
+	.ajusteE{
+		padding-bottom: 20%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 38%;
+	}
+}
+
+@media screen and (max-width:506px ){
+	.ajusteE{
+		padding-bottom: 2%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 39%;
+	}
+}
+
+@media screen and (max-width:503px ){
+	.ajusteE{
+		padding-bottom: 0%;
+	}
+	.ajusteM{
+		padding-bottom: 17%;
+	}
+	.ajusteD{
+		padding-bottom: 56%;
+	}
+}
+
+@media screen and (max-width:500px ){
+	.ajusteE{
+		padding-bottom: 2%;
+	}
+	.ajusteM{
+		padding-bottom: 0%;
+	}
+	.ajusteD{
+		padding-bottom: 59%;
+	}
 }
