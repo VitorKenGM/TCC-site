@@ -265,6 +265,10 @@ text-align: center;
 		background-size: cover;
 		color: black;
 			}
+			#content{
+				margin-left: 25%;
+				margin-bottom: 15%;
+			  }
 		}
 
 		@media screen and (max-width: 980px) {
@@ -301,7 +305,23 @@ text-align: center;
 				padding-left: 5px;
 				overflow-wrap:break-word;
 			   }
+			   #content{
+				margin-left: 23%;
+				margin-bottom: 15%;
+			  }
 
+		}
+		@media screen and (max-width:600px){
+			#content{
+				margin-left: 20%;
+				margin-bottom: 15%;
+			  }
+		}
+		@media screen and (max-width:375px){
+			#content{
+				margin-left: 20%;
+				margin-bottom: 15%;
+			  }
 		}
 	
 /* Row */
