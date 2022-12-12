@@ -267,7 +267,7 @@ text-align: center;
 			#adote{
 				z-index: 1;
 		opacity: 1;
-		background-image: url('/adotereponsivo.png');
+		background-image: url("adotereponsivo.png");
 		background-repeat: no-repeat;
 		background-position: 100% ;
 		background-size: cover;
